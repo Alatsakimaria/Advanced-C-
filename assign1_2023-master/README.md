@@ -1,40 +1,26 @@
-Translate Program (ISO8859-7 to ISO8859-1)
+# Translate Program (ISO8859-7 to ISO8859-1)
 
-Author
+### Author
 
-Alatsaki Maria Foteini
+**Alatsaki Maria Foteini**
 
-Description
+### Description
 
 This program translates Greek characters from ISO8859-7 encoding to Latin characters in ISO8859-1. It functions as a Unix shell filter, reading input from standard input and writing the translated output to standard output.
 
-Features
+### Features
 
-Converts Greek characters to their Latin equivalents.
+- **Converts Greek characters to their Latin equivalents**
+- **Handles accented and diaeresis characters**
+- **Implements state machine for handling digraphs (e.g., ΜΠ -> B, ΝΤ -> D)**
+- **Uses `getchar()`/`putchar()` for efficient character processing**
 
-Handles accented and diaeresis characters.
+### Files
 
-Implements state machine for handling digraphs (e.g., ΜΠ -> B, ΝΤ -> D).
+- **`main.c`**: The main source file containing the entire program.
+- **`tests/`**: Folder containing test files for verification.
 
-Uses getchar()/putchar() for efficient character processing.
+### Compilation & Execution
 
-Files
-
-main.c: The main source file containing the entire program.
-
-tests/: Folder containing test files for verification.
-
-Compilation & Execution
-
+```bash
 gcc -Wall -ansi -pedantic -o translate main.c
-
-Notes
-
-Implemented using function pointers for efficiency.
-
-No assumptions on input size.
-
-Developed on GNU/Linux systems.
-
-
-

@@ -35,14 +35,7 @@ Each function is designed to handle edge cases (e.g., empty strings, `NULL` inpu
 
 ### Steps to Compile and Run
 
-1. **Clone the Repository:**
-
-    ```bash
-    git clone https://github.com/your-username/assignment2.git
-    cd assignment2/src
-    ```
-
-2. **Compile the Code Using `gcc`:**
+1. **Compile the Code Using `gcc`:**
 
     - **For the Array-Based Implementation:**
 
@@ -103,8 +96,3 @@ Each function is designed to handle edge cases (e.g., empty strings, `NULL` inpu
 - **`mystring_ptrs.c`**: Source file with pointer-based implementations.
 - **`README.md`**: This file, providing an overview of the project.
 
-## Contributions
-
-Contributions, feedback, and bug reports are welcome. Feel free to fork the repository, submit issues, or create pull requests to help improve the project.
-
-*Happy coding and exploring the intricacies of C programming!*

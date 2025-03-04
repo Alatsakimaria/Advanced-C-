@@ -20,7 +20,6 @@ This program translates Greek characters from ISO8859-7 encoding to Latin charac
 - **`main.c`**: The main source file containing the entire program.
 - **`tests/`**: Folder containing test files for verification.
 
-### Compilation & Execution
-
+### Compilation
 ```bash
 gcc -Wall -ansi -pedantic -o translate main.c
